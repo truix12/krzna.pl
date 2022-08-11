@@ -48,17 +48,22 @@ h1 {
 
 nav ul {
   margin: 10px;
+  display: flex;
+  flex-direction: column;
   font-size: 15px;
   font-weight: bold;
-  line-height: 35px;
+  /* line-height: 35px; */
   list-style: none;
 }
 
 nav ul li {
+  display: inline;
+  margin-bottom: 20px;
   border-bottom: 2px solid var(--main-color);
 }
 
 nav ul li:hover {
+  display: inline;
   cursor: pointer;
   border-bottom: 2px solid var(--second-color);
 }
@@ -71,7 +76,9 @@ main {
 
 /* intro */
 .intro,
-.offer {
+.offer,
+.execution,
+footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -95,7 +102,6 @@ main {
 .intro-text p {
   margin-bottom: 10px;
   font-size: 15px;
-  /* font-weight: bold; */
   line-height: 20px;
 }
 
@@ -107,7 +113,9 @@ main {
 }
 
 /* offer */
-.offer-div {
+.offer-div,
+.execution-div,
+.footer-div {
   width: 465px;
   margin: 25px 25px 25px 25px;
 }
@@ -139,4 +147,30 @@ ol {
 .offer ul {
   margin: 0 0 30px 40px;
   list-style: none;
+}
+
+/*execution*/
+.execution-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  margin: 0 20px 20px 0;
+  border: 5px solid black;
+}
+
+.description {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description p {
+  font-size: 15px;
+  line-height: 30px;
 }
