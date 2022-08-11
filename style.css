@@ -29,10 +29,6 @@ nav {
   background-color: var(--main-color);
 }
 
-span {
-  /* color: var(--second-color); */
-}
-
 .logo {
   height: 100px;
   width: 100px;
