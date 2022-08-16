@@ -10,7 +10,7 @@ html {
 
 body {
   --main-color: white;
-  --second-color: rgb(130, 128, 128);
+  --second-color: rgb(221, 221, 221);
   background-color: rgb(228, 229, 233);
 }
 
@@ -24,26 +24,42 @@ body {
 nav {
   position: fixed;
   display: flex;
+  flex-direction: column;
+  width: 350px;
   margin-bottom: 125px;
   background-color: var(--main-color);
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  background-color: var(--second-color);
-  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  margin: 30px 100px 0 100px;
+  padding: 10px;
+  font-size: 50px;
+  line-height: 70px;
+  background-color: rgb(238, 238, 238);
+}
+
+.logo p {
+  display: block;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
 }
 
 h1 {
-  margin: 50px 0 15px 10px;
+  margin: 5px 0 15px 0;
   font-size: 30px;
+  text-align: center;
   cursor: pointer;
 }
 
 nav ul {
   margin: 10px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   font-size: 15px;
@@ -68,7 +84,7 @@ nav ul li a:hover {
 
 /* main */
 main {
-  padding-top: 175px;
+  padding-top: 200px;
 }
 
 /* intro */
