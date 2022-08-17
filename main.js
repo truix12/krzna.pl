@@ -1,3 +1,4 @@
+// scroll at navi
 const btn = document.querySelectorAll('li a');
 
 const offerDiv = document.querySelector(".offer");
@@ -27,3 +28,13 @@ for (const b of btn) {
     }
   })
 }
+
+// scroll at LOGO
+const upBtn = document.querySelector(".logo");
+const upIntroDiv = document.querySelector("main");
+
+upBtn.addEventListener("click", function() {
+  upIntroDiv.scrollIntoView( {
+    behavior: 'smooth'
+  })
+})
