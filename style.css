@@ -226,11 +226,144 @@ ol {
 }
 
 @media only screen and (max-width: 850px) {
+
   .wrapper {
-    width: 100%;
+    width: 95%;
   }
 
   nav {
     width: 30%;
+  }
+
+  .offer-div,
+  .execution-div,
+  .footer-div,
+  .pictures,
+  .intro-text,
+  .footer-contact h3 {
+    justify-content: flex-end;
+    width: 60%;
+  }
+
+  .pictures {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pictures div,
+  .pictures img {
+    width: 270px;
+    height: 270px;
+  }
+
+  .foto {
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .logo {
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .logo p {
+    width: 35px;
+    height: 35px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+
+  nav {
+    width: 35%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .execution-wrapper,
+  .footer-wrapper {
+    justify-content: center;
+  }
+
+  .foto {
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+  }
+
+  .description {
+    justify-content: flex-start;
+    height: 125px;
+  }
+
+  .footer-element {
+    width: 160px;
+    margin-right: 0px;
+  }
+
+  .footer-contact h3 {
+    text-align: center;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+  }
+
+  .footer-contact img {
+    margin: 0 15px 0 15px;
+  }
+
+  .fb,
+  .ig {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    width: 35%;
+  }
+
+  .offer-div,
+  .execution-div,
+  .footer-div,
+  .pictures,
+  .intro-text,
+  .footer-contact h3 {
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+  .pictures div,
+  .pictures img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer-contact h3 {
+    margin: 0 15px 15px 0;
+    font-size: 20px;
+  }
+
+  .footer-contact img {
+    margin: 0 15px 0 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .pictures div,
+  .pictures img {
+    width: 170px;
+    height: 170px;
   }
 }
