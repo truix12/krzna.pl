@@ -3,11 +3,13 @@ const btn = document.querySelectorAll('li a');
 
 const offerDiv = document.querySelector(".offer");
 const executionDiv = document.querySelector(".execution")
+const cooperationDiv = document.querySelector(".cooperation")
 const contactDiv = document.querySelector(".footer-div")
 
 let bo = btn[0];
 let be = btn[1];
-let bc = btn[2];
+let bco = btn[2];
+let bc = btn[3];
 
 for (const b of btn) {
   b.addEventListener("click", function() {
@@ -18,6 +20,11 @@ for (const b of btn) {
     }
     if (b.className == "btn-execution") {
       executionDiv.scrollIntoView( {
+        behavior: 'smooth'
+      });
+    }
+    if (b.className == "btn-cooperation") {
+      cooperationDiv.scrollIntoView( {
         behavior: 'smooth'
       });
     }
