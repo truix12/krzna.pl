@@ -331,10 +331,8 @@ ol {
 
 @media only screen and (max-width: 840px) {
   .logo {
-    width: 90px;
-    height: 90px;
-    font-size: 30px;
-    line-height: 50px;
+    width: 180px;
+    height: 180px;
   }
 
   h1 {
