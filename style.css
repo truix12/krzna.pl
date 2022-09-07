@@ -71,7 +71,7 @@ nav ul li a:hover {
 
 /* main */
 main {
-  padding-top: 200px;
+  padding-top: 30px;
 }
 
 /* intro */
@@ -403,7 +403,13 @@ ol {
 
 @media only screen and (max-width: 500px) {
   nav {
-    width: 30%;
+    left: 20px;
+    width: 35%;
+  }
+
+  .logo {
+    height: 150px;
+    width: 150px;
   }
 
   .offer-div,
@@ -434,6 +440,11 @@ ol {
 }
 
 @media only screen and (max-width: 400px) {
+
+  .logo {
+    height: 140px;
+    width: 140px;
+  }
 
   .pictures div,
   .pictures img {
